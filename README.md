@@ -38,24 +38,9 @@ conda activate your_env_name
 cd your/project/path
 ```
 #### Step 3: prepare your dataset  
-We followed the format of the S3DIS dataset to prepare the dataset and the raw forest point cloud data should be in txt format. Here is the format of the raw dataset：
-```
-|-your original dataset
-  |--Area_1
-    |--plot_1
-      |--Annotations
-          |--understory.txt
-          |--terrain.txt
-          |--leaf.txt
-          |--wood.txt
-    |--plot_i
-  |--Area_2
-  |--Area_3
-  |--Area_4
-  |--Area_5
-  |--Area_6
-```
-then run the [preprocess_s3dis.py](pointcept/datasets/preprocessing/s3dis/preprocess_s3dis.py)
+We followed the format of the S3DIS dataset to prepare the dataset and the raw forest point cloud data should be in txt format.   
+
+run the [preprocess_s3dis.py](pointcept/datasets/preprocessing/s3dis/preprocess_s3dis.py)
 ```
 python pointcept/datasets/preprocessing/s3dis/preprocess_s3dis.py --dataset_root /your/original/dataset/path --output_root /your/output/path
 ```
