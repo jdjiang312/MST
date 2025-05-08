@@ -1,4 +1,4 @@
-# :evergreen_tree:MST
+# :deciduous_tree:MST
 
 # Segment from any platform: A model and data-driven representation learning framework for generalized forest point cloud segmentation across different platforms
 <div align="center">
