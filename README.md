@@ -17,6 +17,11 @@ Jundi Jiang</a><sup>1</sup>, Yueqian Shen</a><sup>1</sup>, Jinhu Wang</a><sup>2<
 We adapt the codebase of [Pointcept](https://github.com/Pointcept/Pointcept) which  is a powerful and flexible codebase for point cloud perception research. Please refer to [Pointcept](https://github.com/Pointcept/Pointcept) if you need more information.
 
 ## Installation
+### Requirements
+Ubuntu: 22.04
+CUDA: 12.4
+PyTorch: 2.4.1
+
 We recommend using [anaconda](https://www.anaconda.com/) or [miniconda](https://docs.anaconda.com/miniconda/) to build your virtual environment.
 
 Please follow the [Installation](https://github.com/Pointcept/Pointcept/tree/main#installation) to build your conda environment, or you can refer to [requirements](./requirements.txt).
@@ -32,8 +37,8 @@ cd your/project/path
 ```
 Step 3: prepare your dataset
 ```
-# python pointcept/datasets/preprocessing/s3dis/preprocess_s3dis.py --dataset_root /your/original/dataset/path --output_root /your/output/path
+python pointcept/datasets/preprocessing/s3dis/preprocess_s3dis.py --dataset_root /your/original/dataset/path --output_root /your/output/path
 ```
-
+the 
 
 ## Citation
