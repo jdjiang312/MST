@@ -22,3 +22,18 @@ We recommend using [anaconda](https://www.anaconda.com/) or [miniconda](https://
 Please follow the [Installation](https://github.com/Pointcept/Pointcept/tree/main#installation) to build your conda environment, or you can refer to [requirements](./requirements.txt).
 
 ## Usage
+Step 1: activate your environment
+```
+conda activate your_env_name
+```
+Step2: get into your project root
+```
+cd your/project/path
+```
+Step 3: prepare your dataset
+```
+# python pointcept/datasets/preprocessing/s3dis/preprocess_s3dis.py --dataset_root /your/original/dataset/path --output_root /your/output/path
+```
+
+
+## Citation
