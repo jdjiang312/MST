@@ -77,8 +77,8 @@ python tools/train.py --config-file configs/fine_tuning/insseg_finetuning.py --o
 
 Similarly, uncomment the [GridSample](https://github.com/jdjiang312/MST/blob/9ed867e6f0699d790bdf7eb384f5cb04e2c93f4d/pointcept/datasets/transform.py#L915-L1042) function for **instance segmentation** in [transform.py](pointcept/datasets/transform.py)  
 
- :black_circle: If you need to perform the **instance segmentation** task, uncomment the [prepare_test_data](https://github.com/jdjiang312/MST/blob/9ed867e6f0699d790bdf7eb384f5cb04e2c93f4d/pointcept/datasets/s3dis.py#L110-L143) function for **instance segmentation** in [s3dis.py](pointcept/datasets/s3dis.py)  
+ :black_circle: If you need to perform the **instance segmentation** task, uncomment the [prepare_test_data](https://github.com/jdjiang312/MST/blob/9ed867e6f0699d790bdf7eb384f5cb04e2c93f4d/pointcept/datasets/s3dis.py#L110-L143) function for **semantic segmentation** in [s3dis.py](pointcept/datasets/s3dis.py)  
 
-Similarly, uncomment the [GridSample](https://github.com/jdjiang312/MST/blob/9ed867e6f0699d790bdf7eb384f5cb04e2c93f4d/pointcept/datasets/transform.py#L771-L910) function for **instance segmentation** in [transform.py](pointcept/datasets/transform.py)  
+Similarly, uncomment the [GridSample](https://github.com/jdjiang312/MST/blob/9ed867e6f0699d790bdf7eb384f5cb04e2c93f4d/pointcept/datasets/transform.py#L771-L910) function for **semantic segmentation** in [transform.py](pointcept/datasets/transform.py)  
 
 ## Citation
