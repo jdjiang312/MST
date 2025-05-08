@@ -58,7 +58,7 @@ then run the command line below:
 python tools/train.py --config-file configs/pre_train/insseg_pointgroup_mst.py --options save_path=exp/MST_ins 
 ```
 
-#### Step 5: fine tuning on real-world dataset using the pre=trained best model
+#### Step 5: fine tuning on real-world dataset using the pre-trained best model
 for **semantic segmentation**, modify the config file in [semseg_finetuning.py](configs/fine_tuning/semseg_finetuning.py)  
 
 then run the command line below:
