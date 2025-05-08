@@ -14,7 +14,7 @@ Jundi Jiang</a><sup>1</sup>, Yueqian Shen</a><sup>1</sup>, Jinhu Wang</a><sup>2<
 # Notes 	
 <div align="left">
   
-We adapt the codebase of [Pointcept](https://github.com/Pointcept/Pointcept) which  is a powerful and flexible codebase for point cloud perception research. Please refer to [Pointcept](https://github.com/Pointcept/Pointcept) if you need more information.
+We adapt the codebase of [Pointcept](https://github.com/Pointcept/Pointcept), which  is a powerful and flexible codebase for point cloud perception research. Please refer to [Pointcept](https://github.com/Pointcept/Pointcept) if you need more information.
 
 ## Installation
 ### Requirements
