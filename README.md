@@ -1,6 +1,6 @@
 # :deciduous_tree:MST
 
-#  Platform-agnostic forest understanding: A multi-platform synergistic training framework for generalized forest point cloud segmentation
+#  Cross-Platform forest understanding: A multi-platform synergistic training framework for generalized forest point cloud segmentation
 
 <div align="center">
 Jundi Jiang</a><sup>1,3</sup>, Yueqian Shen</a><sup>1</sup>, Jinhu Wang</a><sup>2</sup>, W Daniel Kissling</a><sup>2</sup>, Markus Hollaus</a><sup>3</sup>, Hongjun Su</a><sup>4</sup>, Jinguo Wang</a><sup>1</sup>, Vagner Ferreira</a><sup>1</sup>  <div align="center">  
@@ -55,6 +55,14 @@ run the [preprocess_s3dis.py](pointcept/datasets/preprocessing/s3dis/preprocess_
 ```
 python pointcept/datasets/preprocessing/s3dis/preprocess_s3dis.py --dataset_root /your/original/dataset/path --output_root /your/output/path
 ```
+Assign a condition (i.e., platform identity) to the processed file:
+```
+python tools/assign_platform_condition.py --data-root /path/to/ALS_dataset --condition ALS
+python tools/assign_platform_condition.py --data-root /path/to/ULS_dataset --condition ULS
+python tools/assign_platform_condition.py --data-root /path/to/MLS_dataset --condition MLS
+```
+
+
 #### Step 4: pretrain on virtual synthetic dataset  
 for **semantic segmentation**, modify the config file in [semseg_ptv3_mst.py](configs/pre_train/semseg_ptv3_mst.py)  
 
